@@ -551,6 +551,39 @@ footer .copyright{
   }
 
 
+  .banner_btn_sm{
+    display: block;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .banner_btn_sm .signin_btn{
+    padding: 1rem 2rem;
+    margin-right: 1rem;
+    background-color: #ff42a5;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 25px;
+    border: none;
+  }
+  .banner_btn_sm .rogue_btn{
+    padding: 1rem 2rem;
+    background-color: #4EC5F7;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 28px;
+    border: none;
+  }
+
+  /* ============ gamer section ========= */
+  .gamer{
+    flex-direction: column;
+    background: #fff;
+    justify-content: center;
+  }
+
+
 }
 
 
