@@ -15,6 +15,7 @@ img {
   --black: #0b0223;
   --dark: #534c64;
 }
+
 .title {
   color: var(--black);
   font-size: 48px;
@@ -114,6 +115,9 @@ section {
     rgba(255, 66, 165, 0.03) 0%,
     rgba(255, 66, 165, 0.03) 100%
   );
+}
+.banner_btn_sm{
+  display: none;
 }
 .banner > div {
   flex: 1;
@@ -502,3 +506,55 @@ footer .copyright{
   opacity: 60%;
   padding: 10px;
 }
+
+/* ============ end footer ============== */
+
+
+
+
+/* ================ media query for small device ======== */
+@media (max-width: 768px) {
+  
+  .navbar{
+    flex-direction: column;
+    /* justify-content: center; */
+    padding: 0;
+
+  }
+  .navbrand{
+    margin-right: 11rem;
+  }
+  .nav_list_sm{
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    
+  }
+  .nav-list{
+    padding-bottom: 1rem;
+  }
+  .nav-social{
+    margin-top: 2rem;
+  }
+
+  /* ======== banner ====== */
+
+  .banner{
+    flex-direction: column-reverse;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .banner-text .title{
+    /* margin-top: 3rem; */
+    padding-top: 5rem;
+  }
+
+
+}
+
+
+
+
+
+
