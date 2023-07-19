@@ -725,3 +725,15 @@ footer .copyright {
     padding: 0;
   }
 }
+
+
+/* ============ mobile medium ====== */
+@media screen and (max-width: 400px){
+  .goat{
+    font-size: 60px;
+    text-align: center;
+  }
+  .all-button{
+    gap: 5px;
+  }
+}
