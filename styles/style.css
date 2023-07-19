@@ -736,4 +736,14 @@ footer .copyright {
   .all-button{
     gap: 5px;
   }
+  
+}
+
+@media screen and (max-width: 355px){
+  .instant-text p{
+    width: 100%;
+  }
+  .banner_btn_sm .signin_btn{
+    padding: 1rem 1rem;
+  }
 }
