@@ -657,6 +657,9 @@ footer .copyright {
   footer .copyright {
     padding-top: 60px;
   }
+  .video{
+    margin-bottom: 2rem;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -724,6 +727,9 @@ footer .copyright {
   footer .terms a{
     padding: 0;
   }
+  .video{
+    margin-bottom: 2rem;
+  }
 }
 
 
@@ -736,6 +742,9 @@ footer .copyright {
   .all-button{
     gap: 5px;
   }
+  .video{
+    margin-bottom: 2rem;
+  }
   
 }
 
@@ -745,5 +754,8 @@ footer .copyright {
   }
   .banner_btn_sm .signin_btn{
     padding: 1rem 1rem;
+  }
+  .video{
+    margin-bottom: 2rem;
   }
 }
