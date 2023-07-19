@@ -424,7 +424,7 @@ section {
   color: var(--pink);
 }
 
-/* footer  */
+/*==================== footer  ==================================*/
 footer {
   padding: 120px;
   background: #0b0223;
@@ -442,4 +442,63 @@ footer .logo span{
 footer .logo img {
   width: 80px;
   margin-right: 20px;
+}
+footer .aboutText{
+  display: flex;
+  justify-content: center;
+  color:#ffffff;
+  padding-top: 1.8rem;
+  padding-bottom: 1.8rem;
+}
+footer .aboutText a{
+  text-decoration: none;
+  color: #fff;
+  padding: 1rem;
+  font-size: 18px;
+  font-weight: 600;
+}
+footer .aboutText a:hover{
+  color:#FF42A5;
+}
+
+footer .footerSocialMediaLink{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1rem;
+
+
+}
+
+footer .footerSocialMediaLink a{
+  text-decoration: none;
+  padding: 1rem;
+  color: #ffffff;
+  font-size: 40px;
+ 
+}
+footer .footerSocialMediaLink a:hover{
+  color:#ff42a5;
+}
+footer .terms{
+  display: flex;
+  justify-content: center;
+
+}
+footer .terms a{
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  font-size: 16px;
+  opacity: 60%;
+
+}
+footer .terms a:hover{
+  color:#ff42a5;
+}
+
+footer .copyright{
+  text-align: center;
+  color: #fff;
+  opacity: 60%;
+  padding: 10px;
 }
