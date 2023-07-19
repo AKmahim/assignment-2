@@ -116,7 +116,7 @@ section {
     rgba(255, 66, 165, 0.03) 100%
   );
 }
-.banner_btn_sm{
+.banner_btn_sm {
   display: none;
 }
 .banner > div {
@@ -216,12 +216,12 @@ section {
 .overlay {
   position: absolute;
   top: 0;
-  bottom: 0;
   left: 0;
   right: 0;
-  border-radius: 7px;
-  /* height: 100%;
-  width: 100%; */
+  bottom: 97px;
+  border-radius: 13px;
+  /* height: 100%; */
+  /* width: 100%;  */
   opacity: 0;
   transition: 0.5s ease;
   background-color: var(--dark);
@@ -440,67 +440,65 @@ footer .logo {
   font-weight: 700;
   color: #fff;
 }
-footer .logo span{
-    color: var(--pink);
+footer .logo span {
+  color: var(--pink);
 }
 footer .logo img {
   width: 80px;
   margin-right: 20px;
 }
-footer .aboutText{
+footer .aboutText {
   display: flex;
   justify-content: center;
-  color:#ffffff;
+  color: #ffffff;
   padding-top: 1.8rem;
   padding-bottom: 1.8rem;
 }
-footer .aboutText a{
+footer .aboutText a {
   text-decoration: none;
   color: #fff;
   padding: 1rem;
   font-size: 18px;
   font-weight: 600;
 }
-footer .aboutText a:hover{
-  color:#FF42A5;
+footer .aboutText a:hover {
+  color: #ff42a5;
 }
 
-footer .footerSocialMediaLink{
+footer .footerSocialMediaLink {
   display: flex;
   justify-content: center;
   padding-bottom: 1rem;
-
-
 }
 
-footer .footerSocialMediaLink a{
+footer .footerSocialMediaLink a {
   text-decoration: none;
   padding: 1rem;
   color: #ffffff;
   font-size: 40px;
- 
 }
-footer .footerSocialMediaLink a:hover{
-  color:#ff42a5;
+footer .footerSocialMediaLink a:hover {
+  color: #ff42a5;
 }
-footer .terms{
+footer .terms {
   display: flex;
   justify-content: center;
-
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
 }
-footer .terms a{
+footer .terms a {
   text-decoration: none;
   color: #fff;
   padding: 10px;
   font-size: 16px;
   opacity: 60%;
-
 }
-footer .terms a:hover{
-  color:#ff42a5;
+footer .terms a:hover {
+  color: #ff42a5;
 }
 
-footer .copyright{
+footer .copyright {
   text-align: center;
   color: #fff;
   opacity: 60%;
@@ -509,54 +507,54 @@ footer .copyright{
 
 /* ============ end footer ============== */
 
-
-
-
 /* ================ media query for small device ======== */
 @media (max-width: 768px) {
-  
-  .navbar{
+  .title {
+    text-align: center;
+  }
+
+  .navbar {
     flex-direction: column;
     /* justify-content: center; */
     padding: 0;
-
   }
-  .navbrand{
+  .navbrand {
     margin-right: 11rem;
   }
-  .nav_list_sm{
+  .nav_list_sm {
     flex-direction: column;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    
   }
-  .nav-list{
+  .nav-list {
     padding-bottom: 1rem;
   }
-  .nav-social{
+  .nav-social {
     margin-top: 2rem;
   }
 
   /* ======== banner ====== */
 
-  .banner{
+  .banner {
     flex-direction: column-reverse;
     padding-left: 50px;
     padding-right: 50px;
   }
 
-  .banner-text .title{
+  .banner-text .title {
     /* margin-top: 3rem; */
     padding-top: 5rem;
   }
 
-
-  .banner_btn_sm{
+  .banner_btn_sm {
     display: block;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
   }
-  .banner_btn_sm .signin_btn{
+  .banner_btn_sm .signin_btn {
     padding: 1rem 2rem;
     margin-right: 1rem;
     background-color: #ff42a5;
@@ -566,9 +564,9 @@ footer .copyright{
     border-radius: 25px;
     border: none;
   }
-  .banner_btn_sm .rogue_btn{
+  .banner_btn_sm .rogue_btn {
     padding: 1rem 2rem;
-    background-color: #4EC5F7;
+    background-color: #4ec5f7;
     color: #ffffff;
     font-size: 18px;
     font-weight: 700;
@@ -577,17 +575,153 @@ footer .copyright{
   }
 
   /* ============ gamer section ========= */
-  .gamer{
+  .gamer {
     flex-direction: column;
     background: #fff;
-    justify-content: center; 
+    justify-content: center;
+  }
+  .gamer > div {
+    margin: 0;
+    text-align: center;
+  }
+  .gamer-text p {
+    margin: 0;
+    width: 100%;
+    margin: 20px 0;
   }
 
+  /* stream section  */
+  .stream .title {
+    font-size: 28px;
+  }
 
+  .all-video {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .video img {
+    width: 500px;
+  }
+  .video-text {
+    width: 500px;
+    text-align: center;
+  }
+  .overlay {
+    bottom: 38px;
+    border: 16px;
+  }
+
+  /* instant play? */
+  .instant-play {
+    flex-direction: column;
+  }
+  .instant-text {
+    padding: 0;
+  }
+  .instant-text .title,
+  .instant-text p {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .instant-play2 {
+    flex-direction: column-reverse;
+    padding-bottom: 100px;
+  }
+  .instant-text2 {
+    padding: 0;
+  }
+  .instant-text2 .title,
+  .instant-text2 p {
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+  }
+  /* career  */
+  .career {
+    flex-direction: column;
+  }
+  .left-career .title {
+    text-align: left;
+  }
+
+  footer .aboutText {
+    flex-wrap: wrap;
+  }
+  footer .aboutText a {
+    font-size: 14px;
+  }
+
+  footer .copyright {
+    padding-top: 60px;
+  }
 }
 
+@media screen and (max-width: 576px) {
+  section {
+    padding: 0 20px !important;
+  }
+  /* stream section  */
+  .stream {
+    padding: 50px 20px !important;
+  }
+  .stream .title {
+    font-size: 26px;
+  }
+   .overlay {
+    bottom: 68px;
+    border: 16px;
+  }
+  .video {
+    margin: 0 auto;
+  }
+  .video img {
+    width: 100%;
+  }
+  .video-text {
+    width: 100%;
+    text-align: center;
+  }
 
+  /* instant play? */
+  .instant-cart img:first-child {
+    width: 80%;
+  }
+  .instant-cart .small-img {
+    left: 0px;
+    bottom: -60px;
+  }
+  .instant-text .title {
+    font-size: 26px;
+  }
+  .instant-text2 .title {
+    font-size: 26px;
+  }
 
+  .instant-text2 p {
+    margin: 0 auto !important;
+    margin-bottom: 50px !important;
+  }
 
-
-
+  .instant-play,
+  .instant-play2 {
+    padding: 0 20px;
+  }
+  .left-career{
+    padding: 50px 0;
+  }
+  .right-career{
+    padding-bottom: 50px ;
+  }
+  .all-button{
+    padding: 50px 0 !important;
+  }
+  footer{
+    padding: 50px 20px;
+  }
+  footer .terms a{
+    padding: 0;
+  }
+}
